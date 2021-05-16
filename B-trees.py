@@ -90,7 +90,7 @@ class BTree:
 B = BTree(2)
 
 for i in range(10):
-    B.insert((i, 2 * i))
+    B.insert((i, 2 + i))
 B.printTree(B.root)
 
 if B.search(20):
